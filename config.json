@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "passwordHash": "b107fce20b89ab22f4eb72843df4acc2628c88d38c54f56bdf3767f53238274f",
+      "name": "管理员",
+      "permissions": ["read", "write", "delete", "export", "config"]
+    },
+    {
+      "username": "editor",
+      "passwordHash": "b107fce20b89ab22f4eb72843df4acc2628c88d38c54f56bdf3767f53238274f",
+      "name": "编辑员",
+      "permissions": ["read", "write"]
+    },
+    {
+      "username": "viewer",
+      "passwordHash": "b107fce20b89ab22f4eb72843df4acc2628c88d38c54f56bdf3767f53238274f",
+      "name": "查看员",
+      "permissions": ["read"]
+    }
+  ],
+  "settings": {
+    "autoLogout": 60,
+    "maxLoginAttempts": 5,
+	"project": "DH1项目HelpMe索引表",
+	"version": "1.0.1",
+	"source": "GitHub",
+	"lastUpdated": "2025-11-11T10:00:00Z"
+  }
+}
